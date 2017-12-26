@@ -1,5 +1,21 @@
 [
   {
+    "title": "Infoma newsystem 17.1.0.0",
+	"description": "Version environment for Infoma newsystem 17.1.0.0 with NAV 2017 CU5",
+	"logo": "https://meine.infoma.de/webinfoma/iupdate.nsf/files/logo.gif/$file/logo.gif",
+	"image": "infoma-ver-env:2017CU5-1701000000",
+	"registry": "s00-nsys-reg.axians-infoma.de",
+  "platform": "windows",
+	"categories": ["nav", "infoma", "newsystem"],
+    "env": [
+      {
+        "name": "NonInteractive",
+        "set": "Y"
+      }
+    ],
+	"network": "MyTransparentNetwork"
+  },
+  {
     "type": "container",
     "title": "Registry",
     "description": "Docker image registry",
